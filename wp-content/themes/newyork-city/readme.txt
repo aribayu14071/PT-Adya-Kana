@@ -2,10 +2,10 @@
 Contributors: ThemeArile
 Author: ThemeArile
 Requires at least: 4.7
-Tested up to: 5.6
+Tested up to: 5.6.2
 Requires PHP: 5.6
-Stable tag: 1.5.3
-Version: 1.5.3
+Stable tag: 1.5.6
+Version: 1.5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
@@ -65,6 +65,15 @@ License: MIT (http://opensource.org/licenses/MIT)
   Source: https://pxhere.com/en/photo/71505 
 
 == Changelog ==
+
+= Version 1.5.6
+* Fixed the wp-block-gallery bottom spacing issue in the blog page.
+
+= Version 1.5.5
+* Fixed the wp-block-button hover color style issues in the blog page.
+
+= Version 1.5.4
+* This theme is fully compatible with the new version of WordPress 5.6.2.
 
 = Version 1.5.3
 * Fixed the table calendar color style issues for the block-category-Widgets in the blog page.

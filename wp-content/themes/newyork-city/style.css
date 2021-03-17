@@ -5,8 +5,8 @@ Template: arilewp
 Author: ThemeArile
 Author URI: https://themearile.com
 Description: NewYork City is a dark responsive WordPress theme for any kind of business website. This dark WordPress theme is clean and modern, making sure everyone experiences your masterpieces in the best possible way. It is fully mobile-friendly and comes with loads of features allowing you to easily customize and set up your WordPress site. As well as sophisticated plus it has some exotic features like clean code, advanced typography, sticky menu, logo upload, header image, Bootstrap 4 framework, built with SEO in mind, and translation ready (WPML, Polylang), etc. Another peculiarity of NewYork City is the Elementor Page Builder which offers you to create your pages which can be made according to your preference. It also loads fast to ensure smooth performance all the time. NewYork City also supports popular free and premium WordPress plugins such as Elementor, Yoast SEO, WooCommerce, Contact Form 7, Jetpack, Google Analytics, and much more. Check the demo of ArileWP Pro https://themearile.com/arilewp-pro-theme/.
-Version: 1.5.3
-Tested up to: 5.6
+Version: 1.5.6
+Tested up to: 5.6.2
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -91,6 +91,32 @@ h1, .h1, h2, .h2, .h3, h3, h4, .h4, h5, .h5, .h6, h6 {
 }
 .wp-block-cover.has-pale-pink-background-color.has-background-dim.has-left-content.aligncenter .wp-block-cover-text {
 	color: #333;
+}
+/*wp-block-button*/
+.wp-block-button .wp-block-button__link {
+    background: #32373c;
+    border: 2px solid #32373c;
+}
+.wp-block-button .wp-block-button__link:hover, 
+.wp-block-button .wp-block-button__link:focus {
+    background: transparent;
+    border: 2px solid #32373c;	
+	color: #fff;
+}
+.wp-block-button.is-style-outline .wp-block-button__link {
+	background: transparent;
+    border: 2px solid #32373c;	
+	color: #fff;
+}
+.wp-block-button.is-style-outline .wp-block-button__link:hover, 
+.wp-block-button.is-style-outline .wp-block-button__link:focus {
+	background: #32373c;
+    border: 2px solid #32373c;
+	color: #fff;
+}
+/*wp-block-gallery*/
+.wp-block-gallery.alignfull {
+    margin: 0 0 1.563rem;
 }
 
 
